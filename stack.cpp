@@ -29,12 +29,11 @@ void print_arr(){
 }
 
 void pop(){
-    if (postion <=-1){
+    if (postion >=0){
         cout<<"stack underflow"<<endl;
     }
     else{
         cout<<"pop value"<<stack[postion] <<endl;
-        postion--;
     }
 }
 
